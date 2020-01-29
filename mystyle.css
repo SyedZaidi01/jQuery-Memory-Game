@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: url("images/wood_background.jpg");
+	/* background: url(images/gif.gif) no-repeat; */
+	/* background: #000000; */
+	background-size: cover;
+	position: absolute;
+}
+h1,h2,h3,p{
+	color: aliceblue;
+}
+#outer_container{
+	display: flex;
+	position: absolute; top: 0; left: 0;
+	align-content: space-between;
+	border: 5px solid #FFFFFF;
+	width: 800px;
+}
+#profile_container{
+	display: flex;	
+/*	justify-content: space-between;*/
+	width: 300px;
+	border: 3px solid #000000;
+	padding-left: 30px;
+}
+
+#profile_image{
+	width: 300px;
+	height: 380px
+}
+#text_container{
+	padding-left: 50px;
+}
+#game_title{
+	font-size: 50px;
+	font-family: Barrio;
+}
+
+#course_title{
+	font-family: 'BioRhyme Expanded';
+}
+
+#semester_season{
+	font-family:'BioRhyme Expanded';
+	font-size: 20px;
+}
+#name_surname{
+	font-family: 'Cinzel Decorative';
+	font-size: 10px;
+}
+#difficulty_container{
+	display: flex;
+	justify-content: space-between;
+}
+#play_button_container{
+	display: flex;
+	justify-content: space-between;
+}
+#play_the_game{
+	font-size: 40px;
+}
+#play_button{
+	height: 100px; width: 100px;
+}
+#play_button:hover{
+	height: 120px;
+	width: 120px;
+}
